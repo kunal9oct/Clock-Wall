@@ -1,0 +1,353 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* MAIN CLOCK */
+#clockContainer{
+    top: 10%;
+	position: relative;
+	margin: auto;
+	/* border: 2px solid red; */
+	height: 72vh;
+	width: 37vw;
+	background: url(clock.png) no-repeat;
+	background-size: 100% 100%;
+}
+
+#hour, #minute, #second{
+	position: absolute;
+	background: black;
+	border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour{
+	background-color: black;
+    width: 1.5%;
+    height: 25%;
+    top: 25%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#minute{
+	background-color: gray;
+    width: 1.3%;
+    height: 31%;
+    top: 19%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#second{
+	background-color: red;
+    width: 1.1%;
+    height: 39%;
+    top: 11%;
+    left: 49.1%;
+    opacity: 1;
+    /* display: none; */
+}
+
+/* WALL CLOCK 1 */
+#wallClock1{
+    top: -67%;
+    left: 13%;
+    position: relative;
+    /* margin: auto; */
+    /* border: 2px solid red; */
+    height: 35vh;
+    width: 18vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#hour1, #minute1, #second1{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour1{
+    background-color: black;
+    width: 1.5%;
+    height: 25%;
+    top: 25%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#minute1{
+    background-color: gray;
+    width: 1.3%;
+    height: 31%;
+    top: 19%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#second1{
+    background-color: red;
+    width: 1.1%;
+    height: 39%;
+    top: 11%;
+    left: 49.1%;
+    opacity: 1;
+    /* display: none; */
+}
+
+/* WALL CLOCK 2 */
+#wallClock2{
+    top: -105%;
+    left: 2.5%;
+    position: relative;
+    /* margin: auto; */
+    /* border: 2px solid red; */
+    height: 15vh;
+    width: 8vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#hour2, #minute2, #second2{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour2{
+    background-color: black;
+    width: 1.5%;
+    height: 25%;
+    top: 25%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#minute2{
+    background-color: gray;
+    width: 1.3%;
+    height: 31%;
+    top: 19%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#second2{
+    background-color: red;
+    width: 1.1%;
+    height: 39%;
+    top: 11%;
+    left: 49.1%;
+    opacity: 1;
+    /* display: none; */
+}
+
+/* WALL CLOCK 3 */
+#wallClock3{
+    top: -121%;
+    left: 72.3%;
+    position: relative;
+    /* margin: auto; */
+    /* border: 2px solid red; */
+    height: 48.5vh;
+    width: 26vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#hour3, #minute3, #second3{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour3{
+    background-color: black;
+    width: 1.5%;
+    height: 25%;
+    top: 25%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#minute3{
+    background-color: gray;
+    width: 1.3%;
+    height: 31%;
+    top: 19%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#second3{
+    background-color: red;
+    width: 1.1%;
+    height: 39%;
+    top: 11%;
+    left: 49.1%;
+    opacity: 1;
+    /* display: none; */
+}
+
+/* WALL CLOCK 4 */
+#wallClock4{
+    top: -88%;
+    left: 89%;
+    position: relative;
+    /* margin: auto; */
+    /* border: 2px solid red; */
+    height: 15vh;
+    width: 8vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#hour4, #minute4, #second4{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour4{
+    background-color: black;
+    width: 1.5%;
+    height: 25%;
+    top: 25%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#minute4{
+    background-color: gray;
+    width: 1.3%;
+    height: 31%;
+    top: 19%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#second4{
+    background-color: red;
+    width: 1.1%;
+    height: 39%;
+    top: 11%;
+    left: 49.1%;
+    opacity: 1;
+    /* display: none; */
+}
+
+/* WALL CLOCK 5 */
+#wallClock5{
+    top: -126.5%;
+    left: 67.8%;
+    position: relative;
+    /* margin: auto; */
+    /* border: 2px solid red; */
+    height: 35vh;
+    width: 18vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#hour5, #minute5, #second5{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour5{
+    background-color: black;
+    width: 1.5%;
+    height: 25%;
+    top: 25%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#minute5{
+    background-color: gray;
+    width: 1.3%;
+    height: 31%;
+    top: 19%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#second5{
+    background-color: red;
+    width: 1.1%;
+    height: 39%;
+    top: 11%;
+    left: 49.1%;
+    opacity: 1;
+    /* display: none; */
+}
+
+/* WALL CLOCK 6 */
+#wallClock6{
+    top: -170.1%;
+    left: 1.8%;
+    position: relative;
+    /* margin: auto; */
+    /* border: 2px solid red; */
+    height: 48.5vh;
+    width: 26vw;
+    background: url(clock.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+#hour6, #minute6, #second6{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+
+#hour6{
+    background-color: black;
+    width: 1.5%;
+    height: 25%;
+    top: 25%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#minute6{
+    background-color: gray;
+    width: 1.3%;
+    height: 31%;
+    top: 19%;
+    left: 49.1%;
+    /* display: none; */
+    opacity: 1;
+}
+
+#second6{
+    background-color: red;
+    width: 1.1%;
+    height: 39%;
+    top: 11%;
+    left: 49.1%;
+    opacity: 1;
+    /* display: none; */
+}
